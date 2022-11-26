@@ -1,0 +1,464 @@
+main > .sub-main > .header {
+  background-color: #FEF1EF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main > .sub-main > .header > .header-1 {
+  margin-left: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main > .sub-main > .header > .header-1 p {
+  color: #4f4d4d;
+}
+
+main > .sub-main > .header > .header-1 p i {
+  color: #F9A392;
+}
+
+main > .sub-main > .header > .header-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 80px;
+}
+
+main > .sub-main > .header > .header-2 > a {
+  margin-right: 15px;
+}
+
+main > .sub-main > .header > .header-2 > a > i {
+  color: #F9A392;
+}
+
+main .nav {
+  position: relative;
+}
+
+main .nav > .nav-1 > a {
+  font-family: 'Arial Black';
+  font-size: 35px;
+  margin-left: 15px;
+}
+
+main .nav > .nav-1 > a:nth-child(2) {
+  color: #F9A392;
+}
+
+main .nav > .nav-1 > a:nth-child(1) {
+  color: black;
+}
+
+main .nav > .nav-2 > ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .nav > .nav-2 > ul > li {
+  height: 100%;
+  width: 100%;
+}
+
+main .nav > .nav-2 > ul > li > .home {
+  color: #F9A392;
+}
+
+main .nav > .nav-2 > ul > li > a {
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial Black';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+}
+
+main .nav > .nav-2 > ul > li > a:hover {
+  color: #F9A392;
+}
+
+main .nav > .nav-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .nav > .nav-3 > a {
+  width: 50%;
+  height: 60%;
+  font-family: 'Arial Black';
+  background-color: #F9A392;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+main .nav > .menusmal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+main .nav > .menusmal > section {
+  margin-right: 15px;
+  cursor: pointer;
+  text-align: right;
+  border: 1px solid #c8c7c7;
+}
+
+main .nav > .menusmal > section > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 4px;
+  margin: 8px;
+  border: 1px solid #b9b6b6;
+  background-color: #d2c4c4;
+}
+
+main .nav > .menujs {
+  background-color: #f9a39245;
+  position: absolute;
+  left: 82%;
+  top: -370px;
+}
+
+main .nav > .menujs > ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .nav > .menujs > ul > span {
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+main .nav > .menujs > ul > span:hover {
+  -webkit-transform: rotatez(360deg);
+          transform: rotatez(360deg);
+}
+
+main .nav > .menujs > ul > li {
+  margin-right: 40px;
+  width: 100%;
+}
+
+main .nav > .menujs > ul > li > .home {
+  color: #F9A392;
+}
+
+main .nav > .menujs > ul > li > a {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  font-family: 'Arial Black';
+  padding: 15px;
+}
+
+main .header-bt {
+  margin-bottom: 150px;
+  position: relative;
+}
+
+main .header-bt > .header-bt-1 {
+  position: absolute;
+}
+
+main .header-bt > .header-bt-1 > figure {
+  position: relative;
+}
+
+main .header-bt > .header-bt-1 > figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .header-bt > .header-bt-1 > figure > figcaption {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.422);
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: white;
+}
+
+main .header-bt > .header-bt-1 > figure > figcaption > h4 {
+  font-family: 'Perpetua Titling MT';
+}
+
+main .header-bt > .header-bt-1 > figure > figcaption > h2 {
+  font-family: 'Arial Black';
+}
+
+main .header-bt > .header-bt-1 > figure > figcaption > p {
+  font-family: 'Simplified Arabic';
+  margin-bottom: 30px !important;
+}
+
+main .header-bt > .header-bt-1 > figure > figcaption > a {
+  border: 1px solid white;
+  font-family: 'Simplified Arabic';
+}
+
+main .header-bt > .header-bt-1 > .fig1 {
+  -webkit-animation: img1 10s linear infinite;
+          animation: img1 10s linear infinite;
+}
+
+main .header-bt > .header-bt-1 > .fig2 {
+  -webkit-animation: img2 10s linear infinite;
+          animation: img2 10s linear infinite;
+}
+
+main .header-bt > .header-bt-1 > .fig3 {
+  -webkit-animation: img3 10s linear infinite;
+          animation: img3 10s linear infinite;
+}
+
+@-webkit-keyframes img1 {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  36% {
+    left: 100%;
+  }
+  36.00000000000001% {
+    left: -100%;
+  }
+  99% {
+    left: -100;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes img1 {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  36% {
+    left: 100%;
+  }
+  36.00000000000001% {
+    left: -100%;
+  }
+  99% {
+    left: -100;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes img2 {
+  0% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  36% {
+    left: 0;
+  }
+  66% {
+    left: 0%;
+  }
+  69% {
+    left: 100%;
+  }
+  69.000000000001% {
+    left: -100%;
+  }
+  100.000000000001% {
+    left: -100%;
+  }
+}
+
+@keyframes img2 {
+  0% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  36% {
+    left: 0;
+  }
+  66% {
+    left: 0%;
+  }
+  69% {
+    left: 100%;
+  }
+  69.000000000001% {
+    left: -100%;
+  }
+  100.000000000001% {
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes img3 {
+  0% {
+    left: -100%;
+  }
+  66% {
+    left: -100%;
+  }
+  69% {
+    left: 0;
+  }
+  94% {
+    left: 0;
+  }
+  99% {
+    left: 100%;
+  }
+  99.00000000001% {
+    left: -100%;
+  }
+  100.00000000000000000001% {
+    left: -100%;
+  }
+}
+
+@keyframes img3 {
+  0% {
+    left: -100%;
+  }
+  66% {
+    left: -100%;
+  }
+  69% {
+    left: 0;
+  }
+  94% {
+    left: 0;
+  }
+  99% {
+    left: 100%;
+  }
+  99.00000000001% {
+    left: -100%;
+  }
+  100.00000000000000000001% {
+    left: -100%;
+  }
+}
+
+main .about {
+  border: 1px solid red;
+}
+
+main .about > .about-1 {
+  height: 100%;
+  border: 1px solid red;
+}
+
+main .about > .about-1 > figure {
+  height: 100%;
+  border: 1px solid red;
+}
+
+main .about > .about-1 > figure > img {
+  border: 1px solid red;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .about > .about-2 {
+  padding: 50px;
+  margin-top: -40px;
+}
+
+main .about > .about-2 > h4 {
+  padding: 6px;
+  background-color: #FEF1EF;
+  color: #F9A392;
+  font-size: 19px;
+  margin-top: -30px;
+}
+
+main .about > .about-2 > h2 {
+  font-size: 38px;
+  font-family: 'Arial Black';
+}
+/*# sourceMappingURL=master.css.map */
